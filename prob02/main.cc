@@ -18,7 +18,7 @@ int main() {
   std::cin >> score;
 
   if ((score >= 0) && (score <= 579)) {
-    std::cout << "Unfortunately, you are ineligible for Tuffy credit card at"
+    std::cout << "Unfortunately, you are ineligible for Tuffy credit cards at"
               << " the moment. Please try again at a later date.";
   } else if ((score >= 580) && (score <= 669)) {
     std::cout << "You are eligible for the Silver Tuffy Card.";

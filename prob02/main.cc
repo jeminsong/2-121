@@ -11,6 +11,7 @@
 
 int main() {
   int score = 0;
+  
   std::cout << "Thank you for applying for the Tuffy Credit card."
             << " Please enter your credit score. \n";
   std::cout << "Credit Score: ";

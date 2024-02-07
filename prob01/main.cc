@@ -15,6 +15,7 @@ int main() {
   std::cout << "Please enter your height in inches: ";
   std::cin >> height;
 
+
   if (height >= 55) {
     std::cout << "Congratulations! You are tall enough to ride!."
               << "\n";
